@@ -65,3 +65,15 @@ Professional translator/editor, aspiring front-end developer. Organized, dedicat
 
 - **2004-2009** - Yanka Kupala State University of Grodno. Faculty of linguistics. Department: Linguistic support for cross-cultural communication/International tourism, specialty - Cross-cultural communication specialist, Translator Consultant (English and German languages)
 - **1993-2004** - Secondary school No. 36, Grodno
+
+**Additional courses**
+
+- _Git and Github Essentials_, Amigoscode
+- _Terminal, Bash & VIM Essentials_, Amigostcode
+- _The complete JavaScript course_, Udemy
+
+## English skills
+
+**C1 ADVANCED**
+
+I've never taken any additional courses/seminars besides academic courses and I've never considered it necessary, because my work as a translator implies delving into the pecularities of language that are never touched upon in these additional courses. My knowledge is based mostly on practice and experience, as well as reading, listening to and watching various content in English.
