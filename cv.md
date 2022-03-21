@@ -56,3 +56,12 @@ Professional translator/editor, aspiring front-end developer. Organized, dedicat
               console.log("Both teams lose!")
           }
 ```
+
+## Work experience
+
+**2012-2022** - Translation of various texts from and into English. Editing of translated texts. Proofreading. Topics: oil & gas, IT, mechanic engineering, aviation, geology, business, accounting, etc. No experience as a developer yet.
+
+## Education
+
+- **2004-2009** - Yanka Kupala State University of Grodno. Faculty of linguistics. Department: Linguistic support for cross-cultural communication/International tourism, specialty - Cross-cultural communication specialist, Translator Consultant (English and German languages)
+- **1993-2004** - Secondary school No. 36, Grodno
