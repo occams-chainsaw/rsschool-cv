@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: #d86e73;
+}
+
+/* GENERAL */
+.cv-contents {
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+  grid-column: span 2;
+  height: 100%;
+  background-color: #2e3033;
+}
+
+.right-section {
+  grid-column: span 5;
+  height: 100%;
+  background-color: #d6dbdf;
+}
+
+/* LEFT SECTION */
+.left-section__contents {
+  padding: 2rem 2rem;
+}
+
+.profile {
+  width: 100%;
+  border-bottom: 2px solid #1b2631;
+}
+
+.profile .profile__image {
+  width: 100%;
+  border-radius: 25%;
+  border: 8px solid #1b2631;
+}
+
+.profile__name {
+  color: #d6dbdf;
+  font-size: 1.875rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.profile__profession {
+  color: #f9e79f;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.left-block_underlined {
+  border-bottom: 2px solid #1b2631;
+}
+
+.left-block__title {
+  color: #d6dbdf;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.left-block__list {
+  padding-top: 1.5rem;
+}
+
+.left-list__item {
+  padding: 0.4rem 0;
+  display: flex;
+  align-items: center;
+  color: #d6dbdfaf;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+}
+
+.left-list__icon {
+  width: 30px;
+  padding-right: 1rem;
+  color: #d86e73;
+}
+
+.left-list__item_uppercase {
+  text-transform: uppercase;
+}
+
+.left-list__link {
+  padding: 0.4rem 0;
+  color: #d6dbdfaf;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+/* RIGHT SECTION */
+.right-section__contents {
+  padding: 2rem 2rem;
+}
+
+.right-section__block {
+  padding-bottom: 2rem;
+}
+
+.right-section__title {
+  color: #1b2631;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  position: relative;
+}
+
+/* ABOUT ME SECTION*/
+.right-section__about {
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+/* EXPERIENCE & EDUCATION SECTION */
+
+.right-section__info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
+}
+
+.info-left__title {
+  font-size: 1.5625rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #494748;
+  padding-bottom: 0.4rem;
+}
+
+.info-left__period {
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+.info-right__title {
+  font-size: 1.5625rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d86e73;
+  padding-bottom: 0.4rem;
+}
+
+.info-right__description {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  border-left: 3px solid #a5a3a3;
+  padding-left: 5px;
+}
+
+/* FOOTER & ANIMATION */
+.footer {
+  padding: 20px 0;
+  color: #1b2631;
+  background-color: #d6dbdf;
+  font-size: 1.5625rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  overflow: hidden;
+  border-right: 0.15em solid #d86e73;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 32%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #d86e73;
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .cv-contents {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .left-section {
+    grid-column: span 3;
+  }
+  .right-section {
+    grid-column: span 4;
+  }
+  .right-section__info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .cv-contents {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .profile__name {
+    font-size: 1.25rem;
+  }
+
+  .profile__profession {
+    font-size: 1.125rem;
+  }
+
+  .left-block__title {
+    font-size: 1.125rem;
+  }
+
+  .right-block__title {
+    font-size: 1.125rem;
+  }
+
+  .left-list__item {
+    font-size: 0.75rem;
+  }
+
+  .left-list__icon {
+    padding-right: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .right-section__about {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .info-left__title {
+    font-size: 1.125rem;
+  }
+
+  .info-left__period {
+    font-size: 1rem;
+  }
+
+  .info-right__title {
+    font-size: 1.125rem;
+  }
+}

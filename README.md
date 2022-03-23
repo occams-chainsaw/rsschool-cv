@@ -1,1 +1,3 @@
-# rsschool-cv
+
+https://occams-chainsaw.github.io/rsschool-cv/
+
